@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Shield - About</title>
+    <meta name="description" content="Learn how Email Shield uses AI to detect fake emails">
+    <link rel="stylesheet" href="/static/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Animated Background -->
+    <div class="bg-animation">
+        <div class="bg-gradient"></div>
+        <div class="bg-orb bg-orb-1"></div>
+        <div class="bg-orb bg-orb-2"></div>
+        <div class="bg-orb bg-orb-3"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="/" class="nav-logo">
+                <span class="logo-icon">🛡️</span>
+                <span class="logo-text">Email Shield</span>
+            </a>
+            <div class="nav-links">
+                <a href="/" class="nav-link">Dashboard</a>
+                <a href="/history" class="nav-link">History</a>
+                <a href="/about" class="nav-link active">About</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <section class="page-header">
+            <h1 class="page-title">About Email Shield</h1>
+            <p class="page-subtitle">Understanding our AI-powered email protection system</p>
+        </section>
+
+        <!-- How It Works -->
+        <section class="about-section">
+            <div class="glass-card">
+                <h2 class="card-title">
+                    <span class="title-icon">🧠</span>
+                    How It Works
+                </h2>
+
+                <div class="process-flow">
+                    <div class="process-step">
+                        <div class="step-number">1</div>
+                        <div class="step-content">
+                            <h3>Text Input</h3>
+                            <p>You paste email content into our analyzer</p>
+                        </div>
+                    </div>
+
+                    <div class="process-arrow">→</div>
+
+                    <div class="process-step">
+                        <div class="step-number">2</div>
+                        <div class="step-content">
+                            <h3>NLP Processing</h3>
+                            <p>Text is cleaned, tokenized, and vectorized using TF-IDF</p>
+                        </div>
+                    </div>
+
+                    <div class="process-arrow">→</div>
+
+                    <div class="process-step">
+                        <div class="step-number">3</div>
+                        <div class="step-content">
+                            <h3>ML Classification</h3>
+                            <p>Our trained model analyzes patterns and features</p>
+                        </div>
+                    </div>
+
+                    <div class="process-arrow">→</div>
+
+                    <div class="process-step">
+                        <div class="step-number">4</div>
+                        <div class="step-content">
+                            <h3>Result</h3>
+                            <p>Classification with confidence score is returned</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Email Classification Section -->
+        <section class="classification-section">
+            <div class="glass-card">
+                <h2 class="card-title">
+                    <span class="title-icon">📧</span>
+                    Email Classifications
+                </h2>
+                <p class="section-description">Our AI-powered system detects and classifies emails into three categories
+                    based on their content and patterns.</p>
+
+                <div class="classification-grid">
+                    <!-- Legitimate -->
+                    <div class="classification-card classification-legitimate">
+                        <div class="classification-icon">✅</div>
+                        <div class="classification-content">
+                            <h3 class="classification-title">Legitimate</h3>
+                            <p class="classification-description">Safe and trustworthy emails from verified sources.
+                                These emails show no signs of malicious intent or suspicious patterns.</p>
+                            <ul class="classification-traits">
+                                <li>Professional sender address</li>
+                                <li>Clear and relevant content</li>
+                                <li>No suspicious links or attachments</li>
+                            </ul>
+                        </div>
+                        <div class="classification-badge-indicator legitimate-indicator"></div>
+                    </div>
+
+                    <!-- Spam -->
+                    <div class="classification-card classification-spam">
+                        <div class="classification-icon">⚠️</div>
+                        <div class="classification-content">
+                            <h3 class="classification-title">Spam</h3>
+                            <p class="classification-description">Unsolicited promotional emails or unwanted bulk
+                                messages. While not always harmful, they can clutter your inbox.</p>
+                            <ul class="classification-traits">
+                                <li>Promotional or marketing content</li>
+                                <li>Urgency tactics used</li>
+                                <li>Unknown or suspicious sender</li>
+                            </ul>
+                        </div>
+                        <div class="classification-badge-indicator spam-indicator"></div>
+                    </div>
+
+                    <!-- Phishing -->
+                    <div class="classification-card classification-phishing">
+                        <div class="classification-icon">🚨</div>
+                        <div class="classification-content">
+                            <h3 class="classification-title">Phishing</h3>
+                            <p class="classification-description">Dangerous emails attempting to steal personal
+                                information or credentials. These require immediate attention and caution.</p>
+                            <ul class="classification-traits">
+                                <li>Impersonates trusted entities</li>
+                                <li>Contains suspicious links</li>
+                                <li>Requests sensitive information</li>
+                            </ul>
+                        </div>
+                        <div class="classification-badge-indicator phishing-indicator"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- Technology Stack -->
+        <section class="about-section">
+            <div class="glass-card">
+                <h2 class="card-title">
+                    <span class="title-icon">⚙️</span>
+                    Technology Stack
+                </h2>
+
+                <div class="tech-grid">
+                    <div class="tech-item">
+                        <div class="tech-icon">🐍</div>
+                        <h4>Python</h4>
+                        <p>Backend & ML</p>
+                    </div>
+
+                    <div class="tech-item">
+                        <div class="tech-icon">🌐</div>
+                        <h4>Flask</h4>
+                        <p>REST API</p>
+                    </div>
+
+                    <div class="tech-item">
+                        <div class="tech-icon">📊</div>
+                        <h4>Scikit-learn</h4>
+                        <p>ML Models</p>
+                    </div>
+
+                    <div class="tech-item">
+                        <div class="tech-icon">📝</div>
+                        <h4>NLTK</h4>
+                        <p>NLP Processing</p>
+                    </div>
+
+                    <div class="tech-item">
+                        <div class="tech-icon">🎨</div>
+                        <h4>Modern CSS</h4>
+                        <p>Glassmorphism UI</p>
+                    </div>
+
+                    <div class="tech-item">
+                        <div class="tech-icon">💾</div>
+                        <h4>SQLite</h4>
+                        <p>Database</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- NLP Features -->
+        <section class="about-section">
+            <div class="glass-card">
+                <h2 class="card-title">
+                    <span class="title-icon">🔤</span>
+                    NLP Features
+                </h2>
+
+                <div class="features-list">
+                    <div class="feature-item">
+                        <span class="feature-icon">✓</span>
+                        <span>Lowercasing & Text Normalization</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="feature-icon">✓</span>
+                        <span>URL & Email Address Removal</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="feature-icon">✓</span>
+                        <span>Stop-word Removal</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="feature-icon">✓</span>
+                        <span>Porter Stemming</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="feature-icon">✓</span>
+                        <span>TF-IDF Vectorization with N-grams</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="feature-icon">✓</span>
+                        <span>Multi-class Classification</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Performance -->
+        <section class="about-section">
+            <div class="glass-card">
+                <h2 class="card-title">
+                    <span class="title-icon">📈</span>
+                    Performance Metrics
+                </h2>
+
+                <div class="metrics-grid">
+                    <div class="metric-card">
+                        <div class="metric-value">95%+</div>
+                        <div class="metric-label">Accuracy</div>
+                    </div>
+                    <div class="metric-card">
+                        <div class="metric-value">&lt;500ms</div>
+                        <div class="metric-label">Response Time</div>
+                    </div>
+                    <div class="metric-card">
+                        <div class="metric-value">3</div>
+                        <div class="metric-label">Classification Types</div>
+                    </div>
+                    <div class="metric-card">
+                        <div class="metric-value">Real-time</div>
+                        <div class="metric-label">Detection</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2025 Email Shield. Powered by AI & Machine Learning.</p>
+    </footer>
+
+    <script src="/static/script.js"></script>
+</body>
+
+</html>

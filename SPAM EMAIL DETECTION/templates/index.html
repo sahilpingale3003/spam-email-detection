@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Shield - Dashboard</title>
+    <meta name="description" content="Intelligent Fake Email Detection System powered by AI">
+    <link rel="stylesheet" href="/static/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Animated Background -->
+    <div class="bg-animation">
+        <div class="bg-gradient"></div>
+        <div class="bg-orb bg-orb-1"></div>
+        <div class="bg-orb bg-orb-2"></div>
+        <div class="bg-orb bg-orb-3"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="/" class="nav-logo">
+                <span class="logo-icon">🛡️</span>
+                <span class="logo-text">Email Shield</span>
+            </a>
+            <div class="nav-links">
+                <a href="/" class="nav-link active">Dashboard</a>
+                <a href="/history" class="nav-link">History</a>
+                <a href="/about" class="nav-link">About</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Hero Section -->
+        <section class="hero">
+            <h1 class="hero-title">Intelligent Email Detection</h1>
+            <p class="hero-subtitle">AI-Powered Protection Against Spam, Phishing & Fake Emails</p>
+        </section>
+
+        <!-- Stats Cards -->
+        <section class="stats-section">
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-icon">📊</div>
+                    <div class="stat-info">
+                        <span class="stat-value" id="totalScans">0</span>
+                        <span class="stat-label">Total Scans</span>
+                    </div>
+                </div>
+                <div class="stat-card stat-legitimate">
+                    <div class="stat-icon">✅</div>
+                    <div class="stat-info">
+                        <span class="stat-value" id="legitimateCount">0</span>
+                        <span class="stat-label">Legitimate</span>
+                    </div>
+                </div>
+                <div class="stat-card stat-spam">
+                    <div class="stat-icon">⚠️</div>
+                    <div class="stat-info">
+                        <span class="stat-value" id="spamCount">0</span>
+                        <span class="stat-label">Spam</span>
+                    </div>
+                </div>
+                <div class="stat-card stat-phishing">
+                    <div class="stat-icon">🚨</div>
+                    <div class="stat-info">
+                        <span class="stat-value" id="phishingCount">0</span>
+                        <span class="stat-label">Phishing</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Analysis Section -->
+        <section class="analysis-section">
+            <div class="glass-card analysis-card">
+                <h2 class="card-title">
+                    <span class="title-icon">🔍</span>
+                    Analyze Email
+                </h2>
+
+                <div class="input-group">
+                    <textarea id="emailInput" class="email-textarea"
+                        placeholder="Paste your email content here to analyze..." rows="6"></textarea>
+                </div>
+
+                <button id="analyzeBtn" class="btn btn-primary">
+                    <span class="btn-icon">⚡</span>
+                    <span class="btn-text">Analyze Email</span>
+                    <span class="btn-loading" style="display: none;">
+                        <span class="spinner"></span>
+                        Analyzing...
+                    </span>
+                </button>
+
+                <!-- Result Panel -->
+                <div id="resultPanel" class="result-panel" style="display: none;">
+                    <div class="result-header">
+                        <span class="result-icon" id="resultIcon">🔍</span>
+                        <h3 class="result-title" id="resultTitle">Analysis Result</h3>
+                    </div>
+
+                    <div class="result-body">
+                        <div class="result-classification" id="resultClassification">
+                            <span class="classification-badge" id="classificationBadge">Unknown</span>
+                        </div>
+
+                        <div class="confidence-meter">
+                            <div class="confidence-label">
+                                <span>Confidence</span>
+                                <span id="confidenceValue">0%</span>
+                            </div>
+                            <div class="confidence-bar">
+                                <div class="confidence-fill" id="confidenceFill" style="width: 0%"></div>
+                            </div>
+                        </div>
+
+                        <div class="result-details" id="resultDetails">
+                            <p class="result-message" id="resultMessage"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2025 Email Shield. Powered by AI & Machine Learning.</p>
+    </footer>
+
+    <script src="/static/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,316 @@
+email_text,label
+"Dear user, your monthly statement is ready for review. Please log in to your account to view the details.",legitimate
+"Hi team, the project meeting has been rescheduled to Friday at 3 PM. Please confirm your availability.",legitimate
+"Your order #12345 has been shipped and will arrive by Thursday. Track your package using the link in your account.",legitimate
+"Reminder: Your dentist appointment is scheduled for tomorrow at 10 AM. Please arrive 15 minutes early.",legitimate
+"Thank you for your recent purchase. Your receipt has been attached to this email for your records.",legitimate
+"The quarterly report is now available in the shared drive. Please review before our next meeting.",legitimate
+"Happy Birthday! Wishing you a wonderful day filled with joy and celebration.",legitimate
+"Your subscription renewal is coming up next month. No action needed - we'll charge your card on file.",legitimate
+"Minutes from yesterday's team meeting are attached. Please review and let me know if I missed anything.",legitimate
+"Your flight reservation has been confirmed. Check-in opens 24 hours before departure.",legitimate
+"The document you requested is attached. Let me know if you need any clarification.",legitimate
+"Quick reminder about the team lunch tomorrow at noon. Hope to see everyone there!",legitimate
+"Your password was successfully changed. If you did not make this change, please contact support immediately.",legitimate
+"The new office policy has been updated. Please read the attached document carefully.",legitimate
+"Thank you for attending our webinar. Here's the recording link as promised.",legitimate
+"Your application has been received. We will review it and get back to you within 5 business days.",legitimate
+"The workshop registration is now open. Early bird discount available until next week.",legitimate
+"Please find attached the invoice for this month's services. Payment is due within 30 days.",legitimate
+"Your feedback survey is ready. We'd appreciate your input on our recent service.",legitimate
+"The holiday schedule has been finalized. Office will be closed from Dec 24-26.",legitimate
+"Your library book is due for return next week. You can renew online if needed.",legitimate
+"The software update has been installed successfully. No restart required.",legitimate
+"Your gym membership renewal confirmation. Thank you for staying with us!",legitimate
+"Attached is the travel itinerary for next week's conference. Safe travels!",legitimate
+"The new team member starts Monday. Please help them feel welcome.",legitimate
+"Your account statement for October is now available for download.",legitimate
+"The maintenance window is scheduled for Saturday 2-4 AM. Brief downtime expected.",legitimate
+"Thank you for your donation. Your contribution makes a real difference.",legitimate
+"The parking permit renewal form is attached. Please submit by end of month.",legitimate
+"Your prescription is ready for pickup at the pharmacy.",legitimate
+"The updated employee handbook is now available on the intranet.",legitimate
+"Your car service appointment is confirmed for Tuesday at 9 AM.",legitimate
+"The team building event photos have been uploaded to the shared folder.",legitimate
+"Your insurance claim has been processed. Check your account for details.",legitimate
+"The new project proposal has been approved. Kickoff meeting next Monday.",legitimate
+"Congratulations! You've won our exclusive lottery! Claim your $1,000,000 prize NOW!",spam
+"URGENT: Make $5000 daily from home! No experience needed! Click here!",spam
+"FREE VIAGRA! Best prices online! No prescription required! Order now!",spam
+"You've been selected for a free iPhone 15! Click here to claim your prize!",spam
+"Lose 30 pounds in 30 days! Revolutionary weight loss pill! Order now!",spam
+"HOT SINGLES in your area want to meet you tonight! Click here!",spam
+"Get rich quick! Work from home and earn $10,000 per week!",spam
+"FREE GIFT CARD! Complete this short survey to claim your $500 Amazon gift card!",spam
+"Congratulations! Your email has won our international sweepstakes of $5,000,000!",spam
+"CHEAP ROLEX WATCHES! 90% off retail price! Limited time offer!",spam
+"Enlarge your manhood naturally! Results guaranteed or money back!",spam
+"FREE LAPTOP! You've been randomly selected! Claim before it expires!",spam
+"Make money fast with our secret trading system! Guaranteed returns!",spam
+"You have inherited $15,000,000 from a distant relative. Contact us for details!",spam
+"ADULT content waiting for you! Click here for exclusive access!",spam
+"Work from home! Earn $500 daily doing simple tasks! No investment required!",spam
+"FREE VACATION! You've won an all-expenses-paid trip to Hawaii!",spam
+"Amazing investment opportunity! Double your money in just 7 days!",spam
+"Congratulations! You are our 1,000,000th visitor! Claim your prize now!",spam
+"Get HUGE discounts on luxury watches! 95% off retail price!",spam
+"Secret diet pill celebrities use! Lose weight without exercise!",spam
+"You've been pre-approved for a $50,000 loan! No credit check required!",spam
+"FREE CRUISE! Claim your Caribbean vacation now! Limited spots!",spam
+"Make $10,000/month copying our trading signals! 100% automated!",spam
+"Miracle cure for baldness! Regrow your hair in just 2 weeks!",spam
+"Congratulations winner! Your lottery ticket matched! Claim $2,500,000!",spam
+"FREE TRIAL! Premium adult content! Cancel anytime! Click here!",spam
+"Get paid to take surveys! Earn up to $75 per survey!",spam
+"You won a brand new BMW! Click here to schedule delivery!",spam
+"FINAL WARNING: Your free gift card is about to expire!",spam
+"Casino bonus! Get $1000 FREE when you sign up! Play now!",spam
+"Cheap medications without prescription! Fast and discreet shipping!",spam
+"Your weight loss journey starts here! Magic pills that actually work!",spam
+"Exclusive offer for you! Double your income working from home!",spam
+"You've been selected for our VIP program! Claim exclusive benefits!",spam
+"Dear Customer, Your account has been compromised. Click here to verify your identity immediately or your account will be suspended.",phishing
+"URGENT: Your bank account shows suspicious activity. Confirm your details now to prevent unauthorized access.",phishing
+"Your Apple ID has been locked due to suspicious activity. Click below to unlock your account.",phishing
+"Netflix: Your payment method has failed. Update your billing information to avoid service interruption.",phishing
+"Your PayPal account has been limited. Log in now to restore full access to your funds.",phishing
+"Microsoft Security Alert: Unusual sign-in activity detected. Verify your account immediately.",phishing
+"Your Amazon order cannot be shipped. Please update your payment information by clicking here.",phishing
+"IMPORTANT: Your email account will be deleted in 24 hours. Click here to verify and keep your account.",phishing
+"Your tax refund of $4,829.00 is pending. Provide your banking details to receive your refund.",phishing
+"Your package could not be delivered. Click here to reschedule and pay the $1.50 delivery fee.",phishing
+"Your Facebook account is at risk. Someone tried to log in from an unknown device. Secure your account now.",phishing
+"Google Alert: Your password expires today. Click here to keep using the same password.",phishing
+"Your iPhone has been hacked! Download our security app immediately to protect your data.",phishing
+"Bank of America: Your debit card has been blocked. Call this number immediately: 1-800-XXX-XXXX",phishing
+"Your WhatsApp account is being registered on a new device. If this wasn't you, click here.",phishing
+"URGENT: Your Social Security number has been suspended. Call immediately to reactivate.",phishing
+"Your Dropbox storage is full. Click here to get 25GB free by verifying your account.",phishing
+"Your Instagram account will be deleted for violating terms. Appeal within 24 hours.",phishing
+"DHL: Your package is held at customs. Pay the $2.99 fee to release your shipment.",phishing
+"Your Spotify Premium subscription has ended. Click here to continue your free trial.",phishing
+"LinkedIn: Someone viewed your profile 47 times. See who by clicking here.",phishing
+"Your iCloud storage is almost full. Click to claim your FREE 50GB upgrade.",phishing
+"Your Chase account has been temporarily suspended. Verify your identity to regain access.",phishing
+"Coinbase Alert: Unusual withdrawal detected. Confirm or cancel this transaction now.",phishing
+"Your Netflix account has been suspended due to a billing issue. Update payment to continue.",phishing
+"URGENT: Your domain name expires in 24 hours. Renew now to avoid losing it.",phishing
+"Your UPS package requires signature. Click here to provide electronic signature.",phishing
+"Your Venmo account has been limited. Verify your identity to remove restrictions.",phishing
+"Steam Guard: Someone is trying to access your account. Confirm your login code here.",phishing
+"Your Wells Fargo online banking has been locked. Click to unlock your account now.",phishing
+"Zoom: Your meeting recording is ready. Click here to download before it expires.",phishing
+"Your Uber account shows suspicious rides. Verify your account to avoid charges.",phishing
+"Adobe Alert: Your subscription payment failed. Update billing to continue access.",phishing
+"Your Twitter account has been hacked. Secure it now by clicking this link.",phishing
+"Your Walmart order is ready for pickup. Click here to confirm and get tracking.",phishing
+"Hi, I wanted to follow up on our discussion about the project timeline.",legitimate
+"Please find the budget proposal attached for your review.",legitimate
+"The client meeting has been moved to Thursday. Please update your calendar.",legitimate
+"Your package was delivered and left at your front door.",legitimate
+"Thank you for your patience while we processed your request.",legitimate
+"The new software documentation is now available on the wiki.",legitimate
+"Reminder: Performance reviews are due by end of this week.",legitimate
+"Your gym session has been booked for tomorrow morning.",legitimate
+"The team retrospective notes have been shared with everyone.",legitimate
+"Your credit card payment has been processed successfully.",legitimate
+"Win big at online casinos! $500 bonus just for signing up!",spam
+"Secret investment that Wall Street doesn't want you to know!",spam
+"FREE samples of our miracle skin cream! Just pay shipping!",spam
+"Earn $1000 daily with this ONE simple trick!",spam
+"Your lottery numbers have been selected! You're a WINNER!",spam
+"Get Instagram followers FAST! 10,000 followers for just $5!",spam
+"Cheap insurance quotes! Save 70% on your premiums today!",spam
+"You've been selected for a special credit card offer!",spam
+"Make six figures trading cryptocurrency! Free course inside!",spam
+"Your ad has been approved! Millions will see your product!",spam
+"Security Notice: Your online banking session has expired. Re-authenticate now.",phishing
+"Your email storage quota exceeded. Verify now to prevent email loss.",phishing
+"IT Department: Your password will expire in 2 hours. Update now.",phishing
+"Your pending wire transfer of $9,500 requires confirmation.",phishing
+"Account Verification Required: Your account access is restricted.",phishing
+"Your Apple Pay has been suspended. Restore access immediately.",phishing
+"Unusual login from Russia detected on your account. Verify identity.",phishing
+"Your email will be terminated. Click here to cancel deletion.",phishing
+"Payment received from unknown sender. Confirm if this was you.",phishing
+"Your Zelle payment of $450 is pending your confirmation.",phishing
+"Please review the attached contract and provide your feedback by Friday.",legitimate
+"The office will be closed for renovations next week.",legitimate
+"Your annual health checkup appointment is scheduled for next month.",legitimate
+"The team lunch location has been changed to the Italian restaurant.",legitimate
+"Your order has been confirmed and will be delivered within 3-5 business days.",legitimate
+"Please complete the mandatory compliance training by month end.",legitimate
+"The new project guidelines have been posted on the company portal.",legitimate
+"Your direct deposit has been processed for this pay period.",legitimate
+"The marketing materials for the campaign are ready for review.",legitimate
+"Thank you for your referral. We appreciate your support!",legitimate
+"ALERT: Unauthorized transaction detected on your account! Verify immediately!",phishing
+"Your McAfee subscription has expired! Computer at risk! Renew now!",phishing
+"Geek Squad: Your renewal of $399.99 will process today. Call to cancel.",phishing
+"Your recent Walmart order could not be processed. Update payment.",phishing
+"FINAL NOTICE: Your account will be closed. Take action now!",phishing
+"Your DocuSign document is ready. Click to review and sign.",phishing
+"Your Norton subscription auto-renewal for $499 processes today.",phishing
+"Action Required: Confirm your account information to avoid suspension.",phishing
+"Your recent login attempt was blocked. Verify your identity.",phishing
+"Your cloud files will be deleted in 24 hours. Confirm to keep.",phishing
+"HDFC Bank: Your account has been debited Rs. 49,999. If not you, call immediately.",phishing
+"SBI Alert: Your net banking has been suspended. Click here to reactivate with OTP verification.",phishing
+"ICICI: Suspicious transaction detected. Verify your account to prevent blocking.",phishing
+"Axis Bank: Your debit card PIN will expire today. Update now to continue using services.",phishing
+"Your bank account will be frozen in 24 hours. Click here to verify KYC immediately.",phishing
+"RBI Notice: Your PAN is not linked with Aadhaar. Update now to avoid account freeze.",phishing
+"Credit Card Alert: Your card has been charged $2,999. If unauthorized, click to dispute.",phishing
+"Your loan of Rs. 5,00,000 has been approved. Click to accept and receive funds today.",phishing
+"Bank Security: Someone tried to access your account. Reset password immediately.",phishing
+"Dear CEO, I need you to urgently wire $25,000 for a confidential acquisition deal.",phishing
+"Urgent invoice attached for immediate payment. Wire transfer required within 24 hours.",phishing
+"Your W-2 tax forms are ready. Download the attached document for all employees.",phishing
+"IT Department: Your corporate email password expires in 1 hour. Reset now.",phishing
+"HR Department: Your salary bonus has been approved. Click to confirm bank details.",phishing
+"Board meeting rescheduled. Please review the updated agenda in the attachment.",phishing
+"Vendor payment of $45,000 requires your approval. Click to authorize transfer.",phishing
+"New company policy requires immediate acknowledgment. Open attachment to review.",phishing
+"Your corporate credit card statement shows unusual activity. Verify immediately.",phishing
+"Confidential: Merger documents attached. Password is your employee ID.",phishing
+"University Notice: Your tuition fee payment failed. Update payment to avoid enrollment cancellation.",phishing
+"Scholarship Approved! You've been selected for a $10,000 grant. Pay $50 processing fee to claim.",phishing
+"Your student portal login has been compromised. Reset password immediately.",phishing
+"Exam results are available. Download your scorecard from the attached link.",phishing
+"URGENT: Your admission is at risk. Verify documents within 24 hours or lose your seat.",phishing
+"Professor Smith shared assignment grades. Click to view your performance.",phishing
+"Your online course certificate is ready. Pay $25 to download and verify.",phishing
+"Student Loan Update: Your application requires additional verification. Submit SSN.",phishing
+"Campus Security Alert: Verify your student ID to maintain access.",phishing
+"Library fine of $150 must be paid immediately or account will be blocked.",phishing
+"Your medical test results are attached. Download immediately for critical findings.",phishing
+"Health Insurance: Your policy has been suspended. Update payment to continue coverage.",phishing
+"Hospital Bill: Your outstanding balance of $4,500 requires immediate payment.",phishing
+"Your prescription refill has been declined. Verify insurance information now.",phishing
+"Medicare Alert: Your benefits are about to expire. Click to renew coverage.",phishing
+"Dr. Johnson's office: Your appointment has been cancelled. Click to reschedule.",phishing
+"Lab Results Urgent: Abnormal findings detected. Download report immediately.",phishing
+"Your health records have been accessed. Click to verify if this was you.",phishing
+"Patient Portal: Complete your registration to access medical records online.",phishing
+"Pharmacy Alert: Controlled substance verification required. Confirm identity.",phishing
+"Government of India: Your Aadhaar card has been suspended. Update biometrics now.",phishing
+"Income Tax Dept: Your ITR filing has errors. Correct immediately to avoid penalty.",phishing
+"PM Kisan Scheme: You are eligible for Rs. 6000. Enter bank details to receive.",phishing
+"GST Notice: Your registration will be cancelled. Verify details within 48 hours.",phishing
+"Passport Seva: Your passport application is on hold. Pay additional fee to process.",phishing
+"E-Shram: Your registration is incomplete. Update Aadhaar linking to receive benefits.",phishing
+"Election Commission: Your voter ID is invalid. Re-verify to avoid removal from list.",phishing
+"Central Government: Your PF withdrawal is approved. Confirm bank account details.",phishing
+"LPG Subsidy: Your subsidy transfer failed. Update bank details immediately.",phishing
+"Traffic Challan: Fine of Rs. 5000 pending. Pay now to avoid license suspension.",phishing
+"Amazon: Your order has been cancelled due to payment issue. Update card details.",phishing
+"Flipkart: You won a lucky draw! Claim your iPhone by paying shipping charges.",phishing
+"Your refund of Rs. 2,999 is pending. Click to provide bank details for transfer.",phishing
+"Delivery Failed: Your package is held at warehouse. Pay Rs. 49 to release.",phishing
+"Order Confirmation: iPhone 15 Pro purchased for Rs. 1,29,999. If not you, click here.",phishing
+"Your Amazon Prime will expire. Update payment to continue exclusive benefits.",phishing
+"Paytm: KYC update required. Your wallet will be blocked in 24 hours.",phishing
+"PhonePe: Your account shows suspicious activity. Verify to avoid blocking.",phishing
+"Your GPay account has been limited. Complete verification to restore full access.",phishing
+"Myntra Sale: Exclusive 90% off! Link expires in 1 hour. Shop now!",spam
+"Microsoft 365: Your subscription has been suspended. Download attached fix.",phishing
+"Your computer has been infected with malware. Call tech support immediately.",phishing
+"Windows Defender: Critical security update required. Download attachment.",phishing
+"GitHub: Unusual activity detected. Verify your developer account now.",phishing
+"AWS Alert: Your account will be suspended. Verify billing information.",phishing
+"Google Cloud: Your free trial has ended. Update payment to avoid data loss.",phishing
+"Your VPN subscription expired. Renew now to keep your browsing secure.",phishing
+"Antivirus expired: Your PC is vulnerable. Click to renew Norton protection.",phishing
+"IT Security: Mandatory software update. Run the attached installer.",phishing
+"Your domain SSL certificate expires tomorrow. Renew to avoid website downtime.",phishing
+"Zoom: Security breach detected. Change your password immediately.",phishing
+"Congratulations! You've been selected for Data Entry Specialist position at Google. Pay $200 registration fee.",phishing
+"Job Offer: Amazon is hiring! $5000/week work from home. Apply now with SSN.",phishing
+"Your interview with Microsoft is scheduled. Click to confirm and pay booking fee.",phishing
+"HR Update: Your resume has been shortlisted by 50 companies. Pay to unlock contacts.",phishing
+"Urgent Vacancy: Earn $3000/week as Virtual Assistant. No experience needed!",spam
+"LinkedIn Premium: Someone wants to hire you! Upgrade to see who viewed your profile.",phishing
+"Your job application requires background verification. Submit SSN and bank details.",phishing
+"Remote Job Alert: Data entry $500/day. Pay $50 training fee to start immediately.",phishing
+"Offer Letter Attached: Review and sign within 24 hours or position goes to next candidate.",phishing
+"Your employee verification is pending. Upload ID proof to HR portal immediately.",phishing
+"Netflix Content Creator: You've been selected for sponsorship. Pay $100 to claim.",phishing
+"YouTube: Your channel will be terminated for copyright violation. Appeal now.",phishing
+"Instagram Verified Badge: You're eligible! Pay $99 for blue tick verification.",phishing
+"TikTok Creator Fund: $5000 bonus pending. Enter PayPal details to receive.",phishing
+"Spotify Artist: Your royalty payment of $2,500 is ready. Confirm account details.",phishing
+"Your podcast has been featured! Pay $150 promotion fee for exclusive placement.",spam
+"Concert Tickets: Taylor Swift exclusive presale! Only 50 left at $500 each!",spam
+"Celebrity Meet & Greet: Pay $299 to meet your favorite star backstage!",spam
+"Your music video was selected for MTV! Pay production fee to proceed.",phishing
+"Film audition call: You've been shortlisted for a Hollywood movie. Pay casting fee.",phishing
+"Emirates Airlines: Your flight has been cancelled. Click for refund or rebooking.",phishing
+"Your hotel booking at Marriott requires additional verification. Confirm card details.",phishing
+"Visa Application: Your tourist visa is on hold. Pay processing fee to expedite.",phishing
+"MakeMyTrip: Your booking failed. Update payment within 2 hours or lose reservation.",phishing
+"Your Uber ride receipt shows $500 charge. If incorrect, dispute immediately.",phishing
+"Flight Change: Your seat has been upgraded. Pay $50 difference to confirm.",phishing
+"Booking.com: Complete your reservation by verifying card. Rooms selling fast!",phishing
+"Your train ticket is waitlisted. Pay Rs. 200 for confirmed seat upgrade.",phishing
+"Travel Insurance Required: Your trip won't be covered. Purchase immediately.",spam
+"Airbnb: Your payout of $1,200 is pending. Verify identity to receive funds.",phishing
+"Court Notice: You are summoned to appear. Download attached legal documents.",phishing
+"Legal Action: Failure to respond within 48 hours will result in arrest warrant.",phishing
+"Your trademark application has issues. Pay $500 to our attorney to resolve.",phishing
+"Settlement Offer: Claim your $50,000 from class action lawsuit. Pay filing fee.",phishing
+"Copyright Violation: Your website content infringes our client's rights. Pay settlement.",phishing
+"Your divorce documents require electronic signature. Click to review and sign.",phishing
+"Legal Notice: Outstanding debt of $15,000. Pay immediately to avoid court action.",phishing
+"Power of Attorney: Sign attached document to authorize legal representative.",phishing
+"Your property deed has discrepancies. Pay legal fees to update records.",phishing
+"Inheritance Claim: $2 million awaits. Pay $1000 legal processing fee to receive.",phishing
+"Purchase Order Urgent: Supplier requires immediate payment of $45,000 via wire transfer.",phishing
+"Shipping Alert: Your cargo is held at port. Pay demurrage charges to release.",phishing
+"Vendor Invoice: Payment overdue. Update banking details for wire transfer.",phishing
+"Supply Chain Update: New vendor registration requires W-9 and bank verification.",phishing
+"Your equipment order is ready for dispatch. Confirm delivery address and pay balance.",phishing
+"Factory audit scheduled. Submit compliance documents via attached portal link.",phishing
+"Inventory shortage alert: Approve emergency purchase of $100,000 from new supplier.",phishing
+"Your manufacturing license expires. Pay renewal fee to avoid production shutdown.",phishing
+"Quality control report attached. Urgent corrective action required within 24 hours.",phishing
+"Customs Hold: Your import shipment requires additional documentation and payment.",phishing
+"Instagram: Your account has been reported for spam. Verify or face permanent ban.",phishing
+"Twitter/X: Your account shows bot-like activity. Complete human verification.",phishing
+"Facebook: Your page will be unpublished. Appeal within 12 hours to save.",phishing
+"Snapchat: Your memories will be deleted. Verify account to prevent loss.",phishing
+"Discord: Server ownership transfer requires identity verification. Confirm now.",phishing
+"Reddit: Your account has been shadowbanned. Click to appeal the decision.",phishing
+"WhatsApp Business: Your account verification failed. Re-submit documents.",phishing
+"Telegram Premium: Your subscription payment failed. Update card to continue.",phishing
+"Pinterest: Copyright strike on your pins. Respond to avoid account termination.",phishing
+"Your social media manager role has been compromised. Reset all connected accounts.",phishing
+"The quarterly sales figures are attached. Please review before the board meeting.",legitimate
+"Your expense report has been approved and will be reimbursed in the next payroll cycle.",legitimate
+"Reminder: Annual compliance training is due by the end of this quarter.",legitimate
+"The client contract has been signed. You can find the executed copy in the shared folder.",legitimate
+"Your leave request for next week has been approved by your manager.",legitimate
+"The new intern starts tomorrow. Please help with their onboarding process.",legitimate
+"Meeting notes from today's sprint planning are attached for your reference.",legitimate
+"Your annual performance bonus has been credited to your salary account.",legitimate
+"The office printer on floor 3 will be under maintenance tomorrow morning.",legitimate
+"Please submit your timesheet by Friday for accurate payroll processing.",legitimate
+"Your child's report card is available on the school portal for download.",legitimate
+"The parent-teacher meeting is scheduled for Saturday at 10 AM in the main hall.",legitimate
+"Reminder: Field trip permission slip must be submitted by Wednesday.",legitimate
+"Your library books are overdue. Please return them to avoid late fees.",legitimate
+"The semester exam schedule has been posted on the university website.",legitimate
+"Your course registration for next semester opens on Monday at 9 AM.",legitimate
+"The professor has uploaded new study materials on the learning management system.",legitimate
+"Your hostel allotment for the upcoming academic year has been confirmed.",legitimate
+"The alumni meet is scheduled for next month. Register on the college portal.",legitimate
+"Your scholarship funds have been credited to your registered bank account.",legitimate
+"Your appointment with Dr. Sharma is confirmed for Monday at 2 PM.",legitimate
+"Your lab test results are ready. Please visit the hospital to collect the report.",legitimate
+"Reminder: Your vaccination booster is due. Schedule an appointment at your convenience.",legitimate
+"Your insurance claim has been processed. The amount will be credited within 5 business days.",legitimate
+"The pharmacy has your prescription ready for pickup.",legitimate
+"Your annual health checkup is due. Please book an appointment at your earliest convenience.",legitimate
+"The hospital has updated visiting hours. Please check the website for details.",legitimate
+"Your physiotherapy sessions have been scheduled as per the treatment plan.",legitimate
+"Reminder: Please bring your previous medical records to your next appointment.",legitimate
+"Your health insurance card has been mailed to your registered address.",legitimate
