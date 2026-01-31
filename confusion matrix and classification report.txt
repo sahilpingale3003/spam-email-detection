@@ -1,0 +1,58 @@
+======================================================================
+🧠 Enhanced Email Classification Model Trainer
+   Version 3.0 - Hybrid Features (Text + Meta)
+======================================================================
+📂 Loading dataset...
+   Total samples: 315
+   Label distribution:
+      phishing: 179
+      legitimate: 85
+      spam: 51
+
+🔧 Advanced preprocessing...
+📊 Extracting additional features...
+
+📊 Data split:
+   Training samples: 252
+   Testing samples: 63
+
+🔤 TF-IDF Vectorization...
+⚖️  Scaling Manual Features...
+🔗 Combining Features...
+   Final Feature matrix shape: (252, 579)
+
+🎯 Training enhanced models with cross-validation...
+
+======================================================================
+
+📊 Ensemble (Hybrid)
+--------------------------------------------------
+   CV F1-Scores: [0.9426689  0.92020163 0.93914208 0.92075256 0.92288499]
+   Mean CV F1: 0.9291 (+/- 0.0194)
+   Test Accuracy:  0.9524
+   Test F1-Score:  0.9519
+
+======================================================================
+
+🏆 Trained Model: Ensemble (Hybrid)
+
+📋 Detailed Classification Report:
+--------------------------------------------------
+              precision    recall  f1-score   support
+
+  Legitimate       1.00      0.88      0.94        17
+        Spam       1.00      0.90      0.95        10
+    Phishing       0.92      1.00      0.96        36
+
+    accuracy                           0.95        63
+   macro avg       0.97      0.93      0.95        63
+weighted avg       0.96      0.95      0.95        63
+
+
+📊 Confusion Matrix:
+[[15  0  2]
+ [ 0  9  1]
+ [ 0  0 36]]
+
+✅ Enhanced training complete!
+======================================================================
