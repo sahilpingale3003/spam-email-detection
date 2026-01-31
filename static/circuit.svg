@@ -1,0 +1,8 @@
+<svg width="100" height="100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <path d="M10 10 L30 10 L30 30" stroke="rgba(0, 240, 255, 0.05)" stroke-width="1" fill="none"/>
+  <path d="M70 10 L70 30 L90 30" stroke="rgba(0, 240, 255, 0.05)" stroke-width="1" fill="none"/>
+  <path d="M10 90 L30 90 L30 70" stroke="rgba(0, 240, 255, 0.05)" stroke-width="1" fill="none"/>
+  <path d="M90 90 L70 90 L70 70" stroke="rgba(0, 240, 255, 0.05)" stroke-width="1" fill="none"/>
+  <circle cx="30" cy="30" r="2" fill="rgba(0, 240, 255, 0.05)"/>
+  <circle cx="70" cy="70" r="2" fill="rgba(0, 240, 255, 0.05)"/>
+</svg>

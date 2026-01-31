@@ -1,0 +1,8 @@
+------------------------------------------------------------
+VERIFICATION: Rule-Based Security Logic
+------------------------------------------------------------
+
+Testing: 1. Phishing Override (Urgency + Password + Link)...
+   Response: [Phishing] (Conf: 100.0%)
+   Signal:   Credential request detected: 'password'
+   Cached:   True

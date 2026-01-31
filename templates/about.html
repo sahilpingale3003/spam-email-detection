@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Shield - About</title>
+    <meta name="description" content="Learn how Email Shield uses AI to detect fake emails">
+    <link rel="stylesheet" href="/static/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="/" class="nav-logo">
+                <span class="material-icons-outlined">security</span>
+                <span class="logo-text">Email Shield</span>
+            </a>
+            <div class="nav-links">
+                <a href="/" class="nav-link">Dashboard</a>
+                <a href="/history" class="nav-link">History</a>
+                <a href="/about" class="nav-link active">About</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <section class="page-header">
+            <h1 class="hero-title">About the System</h1>
+            <p class="hero-subtitle">Understanding our AI-powered email threat protection</p>
+        </section>
+
+        <!-- How It Works -->
+        <section class="about-section">
+            <div class="card">
+                <h2 class="card-title">
+                    <span class="material-icons-outlined" style="color: var(--primary);">psychology</span>
+                    How It Works
+                </h2>
+
+                <div class="process-flow">
+                    <div class="process-step">
+                        <div class="step-number">1</div>
+                        <h3>Text Input</h3>
+                        <p>Paste raw email headers and body content.</p>
+                    </div>
+
+                    <div class="process-step">
+                        <div class="step-number">2</div>
+                        <h3>NLP Pipeline</h3>
+                        <p>Tokenization, vectorization, & feature extraction.</p>
+                    </div>
+
+                    <div class="process-step">
+                        <div class="step-number">3</div>
+                        <h3>AI Analysis</h3>
+                        <p>Hybrid model evaluation (Rules + ML).</p>
+                    </div>
+
+                    <div class="process-step">
+                        <div class="step-number">4</div>
+                        <h3>Verdict</h3>
+                        <p>Instant classification and safety score.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Email Classification Section -->
+        <section class="classification-section" style="margin-bottom: 2rem;">
+            <div class="classification-grid">
+
+                <!-- Legitimate -->
+                <div class="classification-card legitimate">
+                    <div class="classification-header">
+                        <span class="material-icons-outlined text-success">check_circle</span>
+                        <h3>Legitimate</h3>
+                    </div>
+                    <p class="classification-desc">Safe emails from trusted sources with verified ownership.</p>
+                    <ul class="classification-traits">
+                        <li><span class="material-icons-outlined" style="font-size: 16px;">check</span> Valid SPF/DKIM
+                            signature</li>
+                        <li><span class="material-icons-outlined" style="font-size: 16px;">check</span> Known business
+                            context</li>
+                    </ul>
+                </div>
+
+                <!-- Spam -->
+                <div class="classification-card spam">
+                    <div class="classification-header">
+                        <span class="material-icons-outlined text-warning">warning</span>
+                        <h3>Spam</h3>
+                    </div>
+                    <p class="classification-desc">Unsolicited promotional content or bulk marketing.</p>
+                    <ul class="classification-traits">
+                        <li><span class="material-icons-outlined" style="font-size: 16px;">warning</span> Aggressive
+                            marketing</li>
+                        <li><span class="material-icons-outlined" style="font-size: 16px;">warning</span> "Free prize"
+                            keywords</li>
+                    </ul>
+                </div>
+
+                <!-- Phishing -->
+                <div class="classification-card phishing">
+                    <div class="classification-header">
+                        <span class="material-icons-outlined text-danger">error</span>
+                        <h3>Phishing</h3>
+                    </div>
+                    <p class="classification-desc">Malicious attempts to steal credentials or data.</p>
+                    <ul class="classification-traits">
+                        <li><span class="material-icons-outlined" style="font-size: 16px;">close</span> Urgency & Fear
+                            tactics</li>
+                        <li><span class="material-icons-outlined" style="font-size: 16px;">close</span> Suspicious
+                            Links/Attachments</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Technology Stack -->
+        <section class="about-section">
+            <div class="card">
+                <h2 class="card-title">
+                    <span class="material-icons-outlined" style="color: var(--primary);">code</span>
+                    Technology Stack
+                </h2>
+
+                <div class="tech-grid">
+                    <div class="tech-item">
+                        <span class="material-icons-outlined"
+                            style="font-size: 32px; color: var(--primary); margin-bottom: 0.5rem;">integration_instructions</span>
+                        <h4>Python</h4>
+                        <p>Core Backend</p>
+                    </div>
+
+                    <div class="tech-item">
+                        <span class="material-icons-outlined"
+                            style="font-size: 32px; color: var(--primary); margin-bottom: 0.5rem;">api</span>
+                        <h4>Flask</h4>
+                        <p>REST API</p>
+                    </div>
+
+                    <div class="tech-item">
+                        <span class="material-icons-outlined"
+                            style="font-size: 32px; color: var(--primary); margin-bottom: 0.5rem;">model_training</span>
+                        <h4>Scikit-learn</h4>
+                        <p>Vector Machine</p>
+                    </div>
+
+                    <div class="tech-item">
+                        <span class="material-icons-outlined"
+                            style="font-size: 32px; color: var(--primary); margin-bottom: 0.5rem;">psychology</span>
+                        <h4>NLTK</h4>
+                        <p>Natural Language</p>
+                    </div>
+
+                    <div class="tech-item">
+                        <span class="material-icons-outlined"
+                            style="font-size: 32px; color: var(--primary); margin-bottom: 0.5rem;">storage</span>
+                        <h4>SQLite</h4>
+                        <p>Local Storage</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <span class="material-icons-outlined">shield</span>
+            <p>&copy; 2025 Email Shield. Enterprise Security Logic.</p>
+        </div>
+    </footer>
+
+    <script src="/static/script.js"></script>
+</body>
+
+</html>

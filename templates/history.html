@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Shield - History</title>
+    <meta name="description" content="View your email scan history">
+    <link rel="stylesheet" href="/static/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="/" class="nav-logo">
+                <span class="material-icons-outlined">security</span>
+                <span class="logo-text">Email Shield</span>
+            </a>
+            <div class="nav-links">
+                <a href="/" class="nav-link">Dashboard</a>
+                <a href="/history" class="nav-link active">History</a>
+                <a href="/about" class="nav-link">About</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <section class="page-header">
+            <h1 class="hero-title" style="font-size: 2.5rem; margin-bottom: 0.5rem;">Scan History</h1>
+            <p class="hero-subtitle">View and manage your email scan records</p>
+        </section>
+
+        <!-- Controls -->
+        <section class="controls-section">
+            <div class="card controls-card">
+                <div class="controls-row">
+                    <div class="search-box">
+                        <div class="input-icon-wrapper">
+                            <span class="material-icons-outlined">search</span>
+                            <input type="text" id="searchInput" class="search-input" placeholder="Search emails...">
+                        </div>
+                    </div>
+
+                    <div class="filter-group">
+                        <select id="filterSelect" class="filter-select">
+                            <option value="all">All Types</option>
+                            <option value="legitimate">Legitimate</option>
+                            <option value="spam">Spam</option>
+                            <option value="phishing">Phishing</option>
+                        </select>
+                    </div>
+
+                    <button id="exportBtn" class="btn btn-secondary">
+                        <span class="material-icons-outlined" style="font-size: 18px;">download</span>
+                        Export CSV
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- History Table -->
+        <section class="history-section">
+            <div class="card">
+                <div class="table-container">
+                    <table class="history-table">
+                        <thead>
+                            <tr>
+                                <th>Scan ID</th>
+                                <th>Email Preview</th>
+                                <th>Result</th>
+                                <th>Confidence</th>
+                                <th>Time</th>
+                            </tr>
+                        </thead>
+                        <tbody id="historyBody">
+                            <tr class="empty-row">
+                                <td colspan="5">
+                                    <div class="empty-state">
+                                        <span class="material-icons-outlined empty-icon">inbox</span>
+                                        <p>No scan history found</p>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <span class="material-icons-outlined">shield</span>
+            <p>&copy; 2025 Email Shield. Enterprise Security Logic.</p>
+        </div>
+    </footer>
+
+    <script src="/static/script.js"></script>
+    <script>
+        // Initialize history page
+        document.addEventListener('DOMContentLoaded', () => {
+            loadHistory();
+
+            // Search functionality
+            document.getElementById('searchInput').addEventListener('input', debounce(loadHistory, 300));
+            document.getElementById('filterSelect').addEventListener('change', loadHistory);
+
+            // Export functionality
+            document.getElementById('exportBtn').addEventListener('click', exportHistory);
+        });
+
+        function debounce(func, wait) {
+            let timeout;
+            return function executedFunction(...args) {
+                const later = () => {
+                    clearTimeout(timeout);
+                    func(...args);
+                };
+                clearTimeout(timeout);
+                timeout = setTimeout(later, wait);
+            };
+        }
+
+        async function loadHistory() {
+            const search = document.getElementById('searchInput').value;
+            const filter = document.getElementById('filterSelect').value;
+
+            try {
+                const response = await fetch(`/api/history?search=${encodeURIComponent(search)}&filter=${filter}`);
+                const data = await response.json();
+
+                if (data.success) {
+                    renderHistoryTable(data.history);
+                }
+            } catch (error) {
+                console.error('Error loading history:', error);
+            }
+        }
+
+        function renderHistoryTable(history) {
+            const tbody = document.getElementById('historyBody');
+
+            if (history.length === 0) {
+                tbody.innerHTML = `
+                    <tr class="empty-row">
+                        <td colspan="5">
+                            <div class="empty-state">
+                                <span class="material-icons-outlined empty-icon">inbox</span>
+                                <p>No scan history found</p>
+                            </div>
+                        </td>
+                    </tr>
+                `;
+                return;
+            }
+
+            tbody.innerHTML = history.map(item => `
+                <tr class="history-row">
+                    <td class="id-cell">#${item.id}</td>
+                    <td class="preview-cell">${escapeHtml(item.email_preview)}</td>
+                    <td class="classification-cell">
+                        <span class="badge badge-${item.threat_level}">${item.classification}</span>
+                    </td>
+                    <td class="confidence-cell">${item.confidence.toFixed(1)}%</td>
+                    <td class="date-cell">${formatDate(item.scanned_at)}</td>
+                </tr>
+            `).join('');
+        }
+
+        function escapeHtml(text) {
+            const div = document.createElement('div');
+            div.textContent = text;
+            return div.innerHTML;
+        }
+
+        function formatDate(dateStr) {
+            const date = new Date(dateStr);
+            return date.toLocaleDateString('en-US', {
+                month: 'short',
+                day: 'numeric',
+                hour: '2-digit',
+                minute: '2-digit'
+            });
+        }
+
+        function exportHistory() {
+            window.location.href = '/export-history';
+        }
+    </script>
+</body>
+
+</html>

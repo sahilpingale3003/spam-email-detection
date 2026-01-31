@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Shield - Security Dashboard</title>
+    <meta name="description" content="Intelligent Fake Email Detection System">
+    <link rel="stylesheet" href="/static/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="/" class="nav-logo">
+                <span class="material-icons-outlined">security</span>
+                <span class="logo-text">Email Shield</span>
+            </a>
+            <div class="nav-links">
+                <a href="/" class="nav-link active">Dashboard</a>
+                <a href="/history" class="nav-link">History</a>
+                <a href="/about" class="nav-link">About</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Hero Section -->
+        <section class="hero">
+            <h1 class="hero-title">Intelligent Email Security</h1>
+            <p class="hero-subtitle">Advanced threat detection for Spam, Phishing, and Malicious content.</p>
+        </section>
+
+        <!-- Stats Cards -->
+        <section class="stats-section">
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-header">
+                        <span class="stat-label">Total Scans</span>
+                    </div>
+                    <span class="stat-value" id="totalScans">0</span>
+                    <div class="stat-chart-placeholder" style="background-image: url('/static/chart-blue.svg');"></div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-header">
+                        <span class="stat-label">Legitimate</span>
+                    </div>
+                    <span class="stat-value text-success" id="legitimateCount">0</span>
+                    <div class="stat-chart-placeholder" style="background-image: url('/static/chart-green.svg');"></div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-header">
+                        <span class="stat-label">Spam</span>
+                    </div>
+                    <span class="stat-value text-warning" id="spamCount">0</span>
+                    <div class="stat-chart-placeholder" style="background-image: url('/static/chart-yellow.svg');">
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-header">
+                        <span class="stat-label">Phishing</span>
+                    </div>
+                    <span class="stat-value text-danger" id="phishingCount">0</span>
+                    <div class="stat-chart-placeholder" style="background-image: url('/static/chart-red.svg');"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Analysis Section -->
+        <section class="analysis-section">
+            <div class="analysis-frame">
+                <div class="analysis-inner">
+                    <h2 class="card-title" style="margin-bottom: 2rem;">
+                        Analyze Email
+                    </h2>
+
+                    <div class="input-group">
+                        <textarea id="emailInput" class="email-textarea"
+                            placeholder="Paste email content or drag & drop files for security analysis..." rows="8"
+                            aria-label="Email Content to Analyze"></textarea>
+                    </div>
+
+                    <div class="action-row">
+                        <div class="button-group" style="display: flex; gap: 1rem;">
+                            <button id="clearBtn" class="btn btn-secondary" aria-label="Clear Input">
+                                <span class="material-icons-outlined">delete_outline</span>
+                                CLEAR
+                            </button>
+                            <button id="analyzeBtn" class="btn btn-primary" aria-label="Analyze Email">
+                                <span class="btn-text">ANALYZE EMAIL</span>
+                                <span class="material-icons-outlined" style="font-size: 18px;">bolt</span>
+                                <span class="btn-loading" style="display: none;">
+                                    <span class="spinner"></span>
+                                    Scanning...
+                                </span>
+                            </button>
+                        </div>
+                        <div class="analysis-meta">
+                            <span class="material-icons-outlined" style="font-size: 16px;">verified_user</span>
+                            <span>Bank-grade security checks enabled. Advanced threat signature database updated.</span>
+                        </div>
+                    </div>
+
+                    <!-- Result Panel -->
+                    <div id="resultPanel" class="result-panel" style="display: none;">
+                        <div class="result-header">
+                            <div class="result-status">
+                                <span class="material-icons-outlined result-icon" id="resultIcon">help_outline</span>
+                                <div class="result-summary">
+                                    <h3 class="result-title" id="resultTitle">Analysis Complete</h3>
+                                    <span class="classification-badge" id="classificationBadge">Unknown</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="result-body">
+                            <div class="confidence-meter">
+                                <div class="confidence-label">
+                                    <span>Confidence Score</span>
+                                    <span id="confidenceValue">0%</span>
+                                </div>
+                                <div class="confidence-bar">
+                                    <div class="confidence-fill" id="confidenceFill" style="width: 0%"></div>
+                                </div>
+                            </div>
+
+                            <div class="result-details" id="resultDetails">
+                                <p class="result-message" id="resultMessage"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <span class="material-icons-outlined" style="font-size: 14px;">shield</span>
+            <p>&copy; 2025 Email Shield. Cyberpunk Edition.</p>
+        </div>
+    </footer>
+
+    <script src="/static/script.js"></script>
+</body>
+
+</html>

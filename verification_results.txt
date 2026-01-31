@@ -1,0 +1,28 @@
+------------------------------------------------------------
+VERIFICATION: Rule-Based Security Logic
+------------------------------------------------------------
+
+Testing: 1. Phishing Override (Urgency + Password + Link)...
+   Response: [Phishing] (Conf: 100.0%)
+   Signal:   Credential request detected: 'login'
+   Cached:   False
+   ✅ PASS
+
+Testing: 2. Spam Rule (Promotional Keywords)...
+   Response: [Spam] (Conf: 95.0%)
+   Signal:   Promotional content detected: 'click here'
+   Cached:   False
+   ✅ PASS
+
+Testing: 3. Legitimate Rule (Verified Headers)...
+   Response: [Legitimate] (Conf: 98.0%)
+   Signal:   Verified Sender (SPF+DKIM)
+   Cached:   False
+   ✅ PASS
+
+Testing: 4. ML Fallback (Normal Text)...
+   Response: [Legitimate] (Conf: 88.3%)
+   Signal:   ML Model Pattern Match
+   Cached:   False
+   ✅ PASS
+------------------------------------------------------------
